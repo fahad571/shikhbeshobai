@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+.header{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu{
+	margin-top: 26px;
+}
+.btn{
+	margin-top:16px;
+	
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right:16px;
+	margin-left: 16px;
+}
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color:gray;
+}
+
+.menu ul li a:hover{
+	color: tomato;
+}
+
+.btn button{
+  background-color: #14539A;
+  border: none;
+  padding: 10px 20px;
+
+  color: white;
+}
+.btn button:hover{
+	background-color: #548CFF;
+	transition: 0.5s;
+
+}
+.banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.banner-col{
+	display: flex;
+	justify-content: space-between;
+
+}
+.banner-row img{
+	max-width: 100%;
+	height: auto ;
+}
+
+.banner-row h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+    color: #1e266d;
+    line-height: 50px;
+    font-weight: 700;
+}
+.banner-row p{
+		font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+    color: #1e266d;
+    line-height: 28px;
+    font-weight: 300;
+	margin-top: 20px;
+}
+
+.banner-row button{
+	background-color: #14539A;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+.banner-row button:hover{
+	background-color: #548CFF;
+	transition: 0.5s;
+
+}
+.block{
+	padding: 30px;
+}
+
+.acvm{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.icon-block{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	border-radius: 8px;
+    padding: 20px 15px 10px 15px;
+    margin-left: 20px;
+}
+.block-1{
+	background-color:#f9799a ;
+}
+.block-1 h3{
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	padding-left: 20px;
+}
+.block-1 p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.9;
+	font-weight: 400;
+	padding: 20px;
+}
+
+.block-2{
+	background-color:#61c4d8 ;
+}
+.block-2 h3{
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	padding-left: 20px;
+}
+.block-2 p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.9;
+	font-weight: 400;
+	padding: 20px;
+}
+.block-3{
+	background-color:#1e266d ;
+}
+.block-3 h3{
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	padding-left: 20px;
+}
+.block-3 p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 1.9;
+	font-weight: 400;
+	padding: 20px;
+}
+.banner-row span{
+	font-family: 'Open Sans', sans-serif;
+		color: #171f3c;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.bg1{
+	background-color: #f5f7fa;
+	margin-top: 30px;
+}
+
+.bg2{
+	margin-top: 30px;
+}
+
+.contract-info{
+	margin-top: 60px;
+}
+
+.c-area{
+		font-family: 'Open Sans', sans-serif;
+	display: flex;
+	justify-content: space-between;
+border-radius: 8px;
+    margin-bottom: 60px;
+    padding: 100px 60px 80px 60px;
+    box-shadow: 0 8px 28px 2px rgb(61 61 61 / 12%);
+    background-color: #2e367d;
+    color: white;
+
+}
+.c-area h2{
+	margin-bottom: 20px;
+}
+.c-right p{
+line-height: 1.9;
+
+}
+.c-left p{
+	line-height: 1.9;
+}
+.footer{
+	font-family: 'Open Sans', sans-serif;
+color: #1e266d;
+	margin-bottom: 40px;
+
+}
+.footer-row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-col{
+
+	width: 25%;
+}
+.footer-col h5{
+	
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.footer-col p{
+font-family: 'Open Sans', sans-serif;
+line-height: 1.9;
+color: #91a3bb;
+padding-right: 16px;
+}
+
+.footer-col ul li{
+	list-style: none;
+	margin-bottom: 12px;
+}
+
+.footer-col ul li a{
+	text-decoration: none;
+	color: #91a3bb;
+
+}
+
+.footer-col ul li:hover{
+	color: #1e266d;
+	margin-left: 8px;
+	transition: 0.5s;
+}
+
+.about{
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+.about h2{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.about p{
+	  color: #333;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.about h4{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    font-weight: 700;
+}
+strong{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
